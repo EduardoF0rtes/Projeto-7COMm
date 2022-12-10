@@ -1,0 +1,281 @@
+:root {
+    --primary: #6d48a8;
+    --secundary: #95989A;
+    --text-color: #fff;
+    --text-secondary: #000;
+    --text-tertiary: #5D5D5D;
+}
+
+* {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Subscrition form */
+#company-description {
+    background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../img/3.png");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    color: var(--text-color);
+}
+
+#disclaimer h2,
+#disclaimer .company-know{
+    color: var(--primary);
+    font-size: 2em;
+
+}
+
+#disclaimer h2{
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+#disclaimer .company-about{
+    font-size: 1em;
+    text-transform: uppercase;
+    max-width: 350px;
+    font-weight: bold;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+#disclaimer p{
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+}
+
+#form{
+    background-color: var(--secundary);
+    padding: 1em;
+    max-width: 22%;
+}
+
+#form p{
+    font-size: 1.5em;
+    color: var(--text-secondary);
+    margin-bottom: 0.5em;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-group label{
+    color: var(--text-tertiary);
+    margin-bottom: .3em;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select{
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.form-btn input{
+    background-color: var(--primary);
+    color: var(--text-color);
+    text-transform: uppercase;
+    width: 100%;
+    padding: 0.8em;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.form-btn input:hover{
+    opacity: 1;
+    transition: 1s;
+    color: var(--text-secondary);
+    font-weight: bold;
+}
+
+/*Beneficitons Sections*/
+#key-benefits h2{
+    background-color: var(--secundary);
+    text-align: center;
+    padding: 2em;
+    font-weight: 500;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    margin: 0 auto;
+}
+
+.benefit {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    color: var(--text-tertiary)
+}
+
+.benefit .benefit-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+
+#benefit-1 {
+    background-image: url("../img/6.png");
+}
+
+#benefit-2 {
+    background-image: url("../img/10.png");
+}
+
+#benefit-3 {
+    background-image: url("../img/5.png");
+}
+
+/*Location Company*/
+#location {
+    height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../img/rochavera.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--text-color);
+    margin-bottom: 10em;
+}
+
+#adress, #about-location{
+    max-width: 30%;
+}
+
+#adress {
+    display: flex;
+}
+
+#adress i{
+    color: var(--primary);
+    font-size: 4em;
+    margin-right: 0.6em;
+}
+
+#adress-details {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#about-location h3 {
+    color: var(--primary);
+    font-size: 2.5em;
+    margin-bottom:1em;
+    text-transform: uppercase;
+}
+
+#about-location p {
+    line-height: 1.5em;
+}
+
+/*Details*/
+#details {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.detail {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 4em;
+}
+
+.detail img{
+    width: 50%;
+}
+
+.detail h3{
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#detail-1 h3{
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.detail-description {
+    width: 100%;
+    padding-left: 2em;
+}
+
+.detail-description ul {
+    list-style-position: inside;
+}
+
+.detail-description ul li {
+    margin-bottom: 0.4em;
+}
+
+.detail-description ul li:last-child{
+    font-weight: bold;
+}
+
+/*Contact*/
+#contact {
+    height: 300px;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../img/7.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+}
+
+#contact h3{
+    margin-left: 1.2em;
+    margin-top: 2em;
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 2em;
+}
+
+#contact .btn{
+    width: 30%;
+    font-size: 1.2em;
+    margin: 0 auto;
+    background-color: var(--primary);
+    color: var(--text-color);
+    padding: 0.8em;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+#contact .btn:hover{
+    opacity: 1;
+    transition: 1s;
+    color: var(--text-secondary);
+    font-weight: bold;
+}
+
+
