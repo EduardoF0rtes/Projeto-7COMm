@@ -342,8 +342,11 @@
  border-bottom: 55px;
 }
 
-.footer-social i.bi{
-    font-size: 3em;
+.footer-icon{
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .footer-company{
@@ -357,13 +360,28 @@
 .footer-company a{
     text-decoration: none;
     color: var(--text-secondary);
-    font-size: 1.1em;
-    padding: 5px;
+    font-size: 1em;
+    padding: 10px;
 }
 
 .footer-company a:hover{
     font-weight: bold;
     transition: 0.3s;
+}
+
+.footer-contact{
+    font-size: 1.2em;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-contact p{
+    font-size: 1em;
+    color: var(--text-secondary);
+    font-size: 1em;
+    padding: 10px;
 }
 
 .footer-maps{
