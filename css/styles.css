@@ -41,7 +41,8 @@
 
 .header-name a:hover{
     font-weight: bold;
-    transition: .4s;
+    transition:0.5s;
+    color: var(--primary)
 }
 
 /* Subscrition form */
@@ -124,6 +125,7 @@
     opacity: 0.8;
     border-radius: 5px;
     font-weight: bold;
+    font-size:0.9em;
 }
 
 .form-btn input:hover{
@@ -318,5 +320,62 @@
     font-weight: bold;
 }
 
+/*Footer*/
+#footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
 
+.footer-social {
+    color: var(--text-secondary);
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
 
+.footer-social h3{
+ border-bottom: 55px;
+}
+
+.footer-social i.bi{
+    font-size: 3em;
+}
+
+.footer-company{
+    font-size: 1.2em;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-company a{
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+.footer-company a:hover{
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.footer-maps{
+    font-size: 1.2em;
+    color: var(--text-secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-maps h3{
+    border-color: black;
+}
