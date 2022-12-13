@@ -47,7 +47,7 @@
 
 /* Subscrition form */
 #company-description {
-    background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../img/3.png");
+    background-image: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)), url("../img/3.png");
     background-position: center;
     background-size: cover;
     height: 85vh;
@@ -325,7 +325,6 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
 }
 
 .footer-social {
@@ -346,7 +345,7 @@
     font-size: 2em;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .footer-company{
