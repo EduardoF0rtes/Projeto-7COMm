@@ -393,3 +393,22 @@
     padding: 20px;
 }
 
+.alert-error, .alert-success {
+    background: linear-gradient(47deg, rgba(34,34,34,1) 0%, rgba(42,42,42,1) 100%);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 6.25rem;
+    width: 40rem;
+    border-radius: .5rem;
+
+    position: absolute;
+    z-index: 2;
+    margin: 10rem 10% 0 10%;
+
+    visibility: hidden;
+
+    animation-duration: .25s; /* don't forget to set a duration! */
+}
