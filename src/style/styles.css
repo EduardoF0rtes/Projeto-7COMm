@@ -43,7 +43,7 @@ html {
 }
 
 .header-name a:hover{
-    font-weight: bold;
+    font-size: 1.6em;
     transition:0.5s;
     color: var(--primary)
 }
@@ -344,11 +344,22 @@ html {
  border-bottom: 55px;
 }
 
-.footer-icon{
+.footer-social .footer-icon{
     font-size: 2em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 200px;
+    color: var(--text-secondary);
+}
+
+.footer-social .footer-icon a{
+    color: var(--text-secondary);
+}
+
+.footer-social .footer-icon a:hover{
+    color:var(--primary);
+    transition: 0.5s;
 }
 
 .footer-company{
