@@ -50,7 +50,7 @@ html {
 
 /* Subscrition form */
 #company-description {
-    background-image: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)), url("../img/3.png");
+    background-image: linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.85)), url("../img/3.png");
     background-position: center;
     background-size: cover;
     height: 85vh;
@@ -415,3 +415,163 @@ html {
 
     animation-duration: .25s; /* don't forget to set a duration! */
 }
+
+/*Mobile*/
+@media (max-width: 450px){
+    #company-header{
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .header-name{
+        flex-direction: column;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8em;
+        margin-bottom: 10px;
+    }
+
+    #disclaimer{
+        padding: 2em;
+    }
+
+    #disclaimer h2{
+        margin-bottom: 25%;
+        font-size: 2em;
+    }
+
+    #company-description{
+        flex-direction: column;
+        height: auto;
+    }
+
+    #form{
+
+        max-width: 70%;
+        margin-bottom: 2em;
+    }
+
+    #key-benefits{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 2em;
+    }
+
+    .benefits{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 25px;
+        border-bottom: 1em;
+    }
+
+    .benefit p{
+        width:300px;
+        height: auto;
+        padding: 20px;
+    }
+
+    #location{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    #adress{
+        order:2;
+        max-width: 300px;
+        height: auto;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #about-location{
+        order:1;
+        height: auto;
+
+    }
+
+    #about-location p{
+        display: none;
+    }
+
+    #about-location h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #adress .bi{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .detail {
+        flex-direction: column;
+        margin-bottom: .5em;
+    }
+
+    .detail img{
+        width: 100%;
+    }
+
+    #detail-1 h3{
+        font-size: 2em;
+    }
+
+    #detail-1 img{
+        display: none;
+    }
+
+    #detail-3{
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    }
+
+    #detail-3 img{
+        order: 2;
+    }
+
+    #detail-3 detail-description{
+        order: 1;
+    }
+
+    #contact .btn{
+       width: 80%;
+    }
+
+    #footer{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 25px;
+        border-bottom: 1em;
+    }
+
+    #footer .footer-company{
+        font-size: 1.2em;
+    }
+
+    #footer .footer-social{
+        display: none;
+    }
+
+    #footer .footer-maps iframe{
+        width: 95%;
+    }
+
+    #footer .footer-contact {
+        font-size: 1em;
+    }
+
+  }
