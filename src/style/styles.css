@@ -378,8 +378,8 @@ html {
 }
 
 .footer-company a:hover{
-    font-weight: bold;
-    transition: 0.3s;
+    transition:0.5s;
+    color: var(--primary)
 }
 
 .footer-contact{
